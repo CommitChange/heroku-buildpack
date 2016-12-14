@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir> <env-dir>
+
+node $BUILD_DIR/script/build-css.js $BUILD_DIR

@@ -1,2 +1,3 @@
 # heroku-buildpack
-ruby and node buildpack with custom asset compilation
+
+Buildpack to do custom commitchange asset compilation with postcss and browserify.
