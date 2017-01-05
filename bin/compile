@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
-BUILD_DIR=${1:-}
-node $BUILD_DIR/script/build-css.js $BUILD_DIR
+BUILD_DIR=$1
+node $BUILD_DIR/script/build-css.js
